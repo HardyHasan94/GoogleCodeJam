@@ -1,6 +1,6 @@
 """
-
 Moons and Umbrellas problem
+---------------------------
 
 -- Problem:
     Given a string containing the letters 'C', 'J' and question marks, and the costs x and y of 'CJ' and 'JC' resp.,
@@ -225,3 +225,5 @@ def main(T):
 if __name__ == "__main__":
     T = int(input())  # test cases
     main(T)
+
+# =============== END OF FILE ===============

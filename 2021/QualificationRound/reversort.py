@@ -1,5 +1,6 @@
 """
 Reversort problem
+-----------------
 
 -- Problem:
     Given an array of integers and its length, compute the cost of sorting it in ascending order.
@@ -22,6 +23,7 @@ def reverse_sort(lst):
         lst[i:j+1] = reverse(lst[i:j+1])
 
         cost += j - i + 1
+        #print(f"i: {i}\nj: {j}\nlst: {lst}\ncost: {cost}\n")
 
     return cost
 
@@ -59,4 +61,7 @@ def main(T):
 if __name__ == "__main__":
     T = int(input())  # test cases
     main(T)
+
+# =============== END OF FILE ===============
+
 
